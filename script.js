@@ -5,9 +5,9 @@ const buttons = document.querySelectorAll(".button");
 console.log(buttons)
 
 
-buttons.forEach(function (button) {
+buttons.forEach((button) => {
   console.log(button);
-  button.addEventListener('click', function (e) {
+  button.addEventListener('click',(e) => {
     console.log(e);
     console.log(e.target);
     body.style.backgroundColor = e.target.id; 
