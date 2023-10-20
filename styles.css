@@ -1,7 +1,7 @@
 h1{
   text-align: center;
 }
-button{
+.button{
   width: 150px;
   height: 150px;
   align-self: center;
@@ -11,27 +11,34 @@ button{
 .buttons{
   display: flex;
 }
+
+#violet{
+  background-color: violet;
+}
+
+#indigo{
+  background-color: indigo;
+}
+
 #blue{
   background-color: blue;
 }
 #green{
   background-color: green;
 }
+
 #yellow{
   background-color: yellow;
 }
-#red{
-  background-color: red;
-}
-#indigo{
-  background-color: indigo;
-}
-#voilet{
-  background-color: violet;
-}
+
 #orange{
   background-color: orange;
 }
-button:hover{
+
+#red{
+  background-color: red;
+}
+
+.button:hover{
   cursor: pointer;
 }
